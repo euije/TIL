@@ -50,10 +50,10 @@
     - Google Play -> front store
 ```
 
-- **Better Together**
-- 'wearables' and 'large screens'
+- `1. **Better Together**`
 
 
+- **'wearables' and 'large screens'**
 - ` 1. Wear OS, with Fitbit `
     - launch <a href="https://android-developers.googleblog.com/2022/05/announcing-compose-for-wear-os-beta.html#:~:text=With%20this%20Beta%20release%2C%20Compose,components%20for%20the%201.0%20release.">the beta of Jetpack Compose for Wear OS</a>
     - Jetpack의 Form Factor를 통해 다양한 사이즈의 스크린에 대응 할 수 있음
@@ -69,3 +69,24 @@
     - Android 12, 13 has optimizations. 'Taskbar, Multi-tasking, Keyboard and Mouse support, Compatibility mode'
     - <a href="https://developer.android.com/guide/topics/large-screens/get-started-with-large-screens">'large-screen quality guidelines'</a>
     - Jetpack library "DragAndDrop" and "WindowManager" have reached their 1.0 stable release.
+
+    - Changes of **the Play Store**
+    - the best large-screen optimized apps
+    - focused editorial content / Separate review and rating system
+
+
+- `2. **Developer Productivity**`
+    - Changes of **Android Studio**
+    - In Android Studio Electric Eel, we can see the new features
+    - <a href="https://developer.android.com/studio/preview/features#compose_multipreview_annotations">'Multipreview API' </a> : different screen sizes에서 어떻게 보이는지 확인하고 싶을 때 preview code를 작성하지 않고 확인할 수 있음.
+    - One annotation(@PreviewDevices) 작성만 하면 됨.
+
+    - **Screen Mirroring Updates**
+    - IDE flow에 머무르고 싶을 때가 있다.
+    - feel my app(validate gestures, scoll events)
+    - We can stream the interaction of a physical device screen right into Android Studio (over Wi-Fi or USB).
+    - Live Edit without rebuilding
+    - 이거말고도 여러가지 <a href="https://android-developers.googleblog.com/2022/05/13-things-to-know-for-android-developers-at-google-io.html"> 업데이트 </a>가 있으니 피드백 부탁!
+    - in Lastest Jetpack Compose APIs
+    > Every Developer said they never want to go back to XML once they've tried Compose
+    - Twitter, Airbnb, Play Store가 Jetpack Compose로 만들어짐.
