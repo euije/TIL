@@ -76,18 +76,18 @@
 
 
 ### 2. Developer Productivity
-    - Changes of **Android Studio**
+- Changes of **Android Studio**
     - In Android Studio Electric Eel, we can see the new features
-    - <a href="https://developer.android.com/studio/preview/features#compose_multipreview_annotations">'Multipreview API' </a> : different screen sizes에서 어떻게 보이는지 확인하고 싶을 때 preview code를 작성하지 않고 확인할 수 있음.
-    - One annotation(@PreviewDevices) 작성만 하면 됨.
+        - <a href="https://developer.android.com/studio/preview/features#compose_multipreview_annotations">'Multipreview API' </a> : different screen sizes에서 어떻게 보이는지 확인하고 싶을 때 preview code를 작성하지 않고 확인할 수 있음.
+        - One annotation(@PreviewDevices) 작성만 하면 됨.
 
 
     - **Screen Mirroring Updates**
-    - IDE flow에 머무르고 싶을 때가 있다.
-    - feel my app(validate gestures, scoll events)
-    - We can stream the interaction of a physical device screen right into Android Studio (over Wi-Fi or USB).
-    - Live Edit without rebuilding
-    - 이거말고도 여러가지 <a href="https://android-developers.googleblog.com/2022/05/13-things-to-know-for-android-developers-at-google-io.html"> 업데이트 </a>가 있으니 피드백 부탁!
+        - IDE flow에 머무르고 싶을 때가 있다.
+        - feel my app(validate gestures, scoll events)
+        - We can stream the interaction of a physical device screen right into Android Studio (over Wi-Fi or USB).
+        - Live Edit without rebuilding
+        - 이거말고도 여러가지 <a href="https://android-developers.googleblog.com/2022/05/13-things-to-know-for-android-developers-at-google-io.html"> 업데이트 </a>가 있으니 피드백 부탁!
 
 
     - in Lastest Jetpack Compose APIs
