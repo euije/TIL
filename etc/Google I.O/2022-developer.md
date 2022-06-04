@@ -75,7 +75,7 @@
         - focused editorial content / Separate review and rating system
 
 
-- `2. Developer Productivity`
+### 2. Developer Productivity
     - Changes of **Android Studio**
     - In Android Studio Electric Eel, we can see the new features
     - <a href="https://developer.android.com/studio/preview/features#compose_multipreview_annotations">'Multipreview API' </a> : different screen sizes에서 어떻게 보이는지 확인하고 싶을 때 preview code를 작성하지 않고 확인할 수 있음.
@@ -89,7 +89,7 @@
     - Live Edit without rebuilding
     - 이거말고도 여러가지 <a href="https://android-developers.googleblog.com/2022/05/13-things-to-know-for-android-developers-at-google-io.html"> 업데이트 </a>가 있으니 피드백 부탁!
 
-    
+
     - in Lastest Jetpack Compose APIs
     > Every Developer said they never want to go back to XML once they've tried Compose
     - Twitter, Airbnb, Play Store가 Jetpack Compose로 만들어짐.
