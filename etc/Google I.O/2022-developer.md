@@ -21,6 +21,9 @@
 - Augmented Reality, Android, Flutter, Chrome, Firebase, Google Cloud, Machine Learning.
 
 
+---
+
+
 ## Augmented Reality
 - ARCore
 - new launched! <a href="https://developers.google.com/ar/develop/geospatial#android-kotlinjava">'ARCore Geospatial API'</a> on Android and iOS.
@@ -30,20 +33,23 @@
 - AR experience Demo - <a href="https://github.com/googlecreativelab/balloon-pop"> 'Balloon Pop' </a>
 
 
+---
+
+
 ## Android
 - Better Together
 - Developer productivity
 
 
-- 'Modern Android Development'
-- Android Studio, Kotlin -> productive development
-- Material, Jetpack Compose -> UI framework, guidance
-- Jetpack -> reduce the code you need to write
-- Google services- > enhance your application
-- Google Play -> front store
+- `'Modern Android Development'`
+    - Android Studio, Kotlin -> productive development
+    - Material, Jetpack Compose -> UI framework, guidance
+    - Jetpack -> reduce the code you need to write
+    - Google services- > enhance your application
+    - Google Play -> front store
 
 
-- Better Together
+- **Better Together**
 - 'wearables' and 'large screens'
 
 
