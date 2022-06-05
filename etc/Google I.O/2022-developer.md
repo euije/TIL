@@ -91,5 +91,42 @@
 
 
     - in Lastest Jetpack Compose APIs
-    > Every Developer said they never want to go back to XML once they've tried Compose
+> Every Developer said they never want to go back to XML once they've tried Compose
     - Twitter, Airbnb, Play Store가 Jetpack Compose로 만들어짐.
+
+---
+
+
+## Web
+- Web makes sharing and collaboration easy with over 4 billion people.
+- the open-source project <a href="https://github.com/chromium/chromium">Chromium </a>designed to push the web forward.
+- Vision : **Instant, Powerful, Safe**
+    - 유저들을 빠르게 이탈한다. 그러기에 작은 성능 향상만으로 큰 차이를 만들 수 있다.
+    - 그래서 몇 년간 구글은 Chrome을 Fine-tuning하였고 이는 Speedometer Score의 증가로 이어졌다.
+    - Release 87 -> 100, 점수 3배 증가
+
+
+    - 브라우저의 성능 향상만으로는 부족. the way a website's built가 중요.
+    - 3개의 기준으로 판단. Loading, Interactivity, Visual stability.
+    - On<a href="https://pagespeed.web.dev/">`web.dev`</a>, you can learn how to improve your scores(Discover site's Core Web Vitals.)
+    - Chrome - 개발자 도구 - 'Performance Insights' 패널에서 사이트의 Vitals 진단 가능
+
+
+    - 최근, 웹의 가능성은 OS와 Hardware와의 integrating으로 further해졌다. 이는 `instant and seamless` model한 경험으로 이어졌다.
+    - favorite example: <a href="https://spike.legoeducation.com/">LEGO's online learning experience</a> - Bluetooth, USB API를 통한 cool한 코딩 가능
+    - Adobe 또한 WebAssembly를 통한 기존의 경험을 re-envision하고 있음.
+    - Google Sheet 또한 Java를 빠르게 실행중임.
+
+
+    - We're working closely with the Android team on the `Privacy Sandbox`
+    - We rethink online privacy and enable personalized experiences that don't rely on tracking users across apps or sites.
+    - We're currently testing trial versions of <a href="https://privacysandbox.com/intl/en_us/">the Privacy Sandbox APIs</a> in Chrome
+    - One of these is <a href="https://developer.chrome.com/docs/privacy-sandbox/fedcm/">Federated Credential Management</a> which is a new way for browsers to support logins **without relying on third-party cookies or libraries**.
+
+
+    - 개발자들은 브라우저 종류와 상관없이 web APIs가 consistently perform하도록 작업한다.
+    - This year, All of the major browsers have come together on an effort
+    - <a href="https://web.dev/interop-2022/">Interop 2022</a>
+    - cooperatively improve compatibility in **15 key areas of the web**
+    - CSS grid와 같은 최신 웹기술을 자신감있게, 쉽게 사용할 수 있음.
+    - ref) <a href="https://wit.nts-corp.com/2022/02/24/6490"> CSS 2022 </a>
