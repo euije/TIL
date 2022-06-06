@@ -140,19 +140,26 @@
 - `Flutter 3`
 - you can build high-quality, beautiful experiences for all six platforms(**Android, iOS, Web, Windows, Mac, Linux**) from a single code base
 - We want to give you `the flexibility` also to take full advantage of that underlying OS whenever you build a Flutter app
+
+
     - more than just rendering pixels, includes **new inputs, interaction models compilation, build supports, accessibility, internationalization, platform-specific integration.**
+
     - sharing as much UI and logic as you choose
         - On Linux, <a href="https://canonical.com/">Canonical</a> has been contributing to offer a highly integrated option for development. 
         - On macOS, we've invested in supporting both Intel and Apple silicon with <a href ="https://github.com/flutter/flutter/wiki/Developing-with-Flutter-on-Apple-Silicon">`support for Universal Binary`</a>
+        
     - One example of how Flutter 3 enable beautiful desktop experience is <a href="https://www.superlist.com/"> `Superlist` </a>
         - They started with macOS as their target platform
         - But, since they're using Flutter, they also get Windows, Android, and iOS apps, all from the same code.
+
     - Plus, We've got new performance tooling.
         ```
             Material 3, folable device support, new language features in Dart
         ```
+
     - Today, we are also announcing the `Flutter Casual Game Toolkit`
         - including a sample game, learnign materials, community spaces, and information about credits for Google Developer Services
+
     - `Flutter-Firebase Fully-supported integration` : Fully supported core part of the Firebase offering
         - 62% of Flutter developers use Firebase
         - we're moving the source code and the documentation into the main Firebase repo and site.
