@@ -174,12 +174,15 @@
 - Crashlytics crashes and the events that led up to them.
 
 
+
+
     - To reproduce, debug, and resolve issues, you need to jump into your IDE like Android Studio.
     - That's why we're launching the new <a href="https://youtu.be/RFv8GkLd5OY?t=1821">`App Quality Insights window`</a> in Android Studio.
     - The App Quality Insights window helps you discover, investigate, and reproduce issues reported by Crashlytics within the context of your Android Studio.
         - Android Studio에서 프로젝트를 열고 'App Insights' 탭을 열면 각 Issue 리스트와 affecting a number of users를 보여준다.
         - by highlighting the lines of code that have appeared in crash reports.
         > No more extra time spent on searching for and linking crashes from the console to our codebase. -Adobe Acrobat-
+
 
 
 
@@ -191,6 +194,8 @@
     - `Extensions events` allows you to **customize an extension with your own custom code.**
         - For example, if you're using the Payments with Stripe extension for subscription billing, you can now write your own custom code to trigger a discount offer upon subscription cancellation.
         - Check out the new extensions from 'Snap, Stream, RenenueCat, Typesense, and more'
+
+
 
 
     - Regardless of what tools and platforms you use, you shouldn't have to worry about security risks to your backend, like phishing, app impersonation, or data theft.
