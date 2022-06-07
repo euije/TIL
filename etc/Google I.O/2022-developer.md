@@ -147,7 +147,7 @@
     - sharing as much UI and logic as you choose
         - On Linux, <a href="https://canonical.com/">Canonical</a> has been contributing to offer a highly integrated option for development. 
         - On macOS, we've invested in supporting both Intel and Apple silicon with <a href ="https://github.com/flutter/flutter/wiki/Developing-with-Flutter-on-Apple-Silicon">`support for Universal Binary`</a>
-        
+
     - One example of how Flutter 3 enable beautiful desktop experience is <a href="https://www.superlist.com/"> `Superlist` </a>
         - They started with macOS as their target platform
         - But, since they're using Flutter, they also get Windows, Android, and iOS apps, all from the same code.
@@ -157,7 +157,7 @@
             Material 3, folable device support, new language features in Dart
         ```
 
-    - Today, we are also announcing the `Flutter Casual Game Toolkit`
+    - Today, we are also announcing the <a href="https://flutter.dev/games?gclid=Cj0KCQjwqPGUBhDwARIsANNwjV7lKwvjm8VrSSG66I45k99Z3loMGg2z4wMhfEuIqP4utzb6Fv64VeAaAuUxEALw_wcB&gclsrc=aw.ds">`Flutter Casual Game Toolkit`</a>
         - including a sample game, learnign materials, community spaces, and information about credits for Google Developer Services
 
     - `Flutter-Firebase Fully-supported integration` : Fully supported core part of the Firebase offering
@@ -169,3 +169,36 @@
 ---
 
 ## Firebase
+- Firebase is Google's app development platform that brings together tools, technology, and backend services in one place.
+- We've continued to invest in making app development faster and easier so you can focus on building and growing apps people love.
+- Crashlytics crashes and the events that led up to them.
+
+
+    - To reproduce, debug, and resolve issues, you need to jump into your IDE like Android Studio.
+    - That's why we're launching the new <a href="https://youtu.be/RFv8GkLd5OY?t=1821">`App Quality Insights window`</a> in Android Studio.
+    - The App Quality Insights window helps you discover, investigate, and reproduce issues reported by Crashlytics within the context of your Android Studio.
+        - Android Studio에서 프로젝트를 열고 'App Insights' 탭을 열면 각 Issue 리스트와 affecting a number of users를 보여준다.
+        - by highlighting the lines of code that have appeared in crash reports.
+        > No more extra time spent on searching for and linking crashes from the console to our codebase. -Adobe Acrobat-
+
+
+
+    - Firebase also makes it easier to use with multiple third-party tools.
+    - Most apps use betwwen 20 to 40 different APIs.
+    - <a href="https://firebase.google.com/products/extensions">`Firebase Extensions`</a> prepackaged solutions that lets you quickly and functionalities to your apps from Google or other companies.
+        - You **just deploy and the code is pulled into your codebase.**
+        - The trade-off is that they might not always fit your specific needs.
+    - `Extensions events` allows you to **customize an extension with your own custom code.**
+        - For example, if you're using the Payments with Stripe extension for subscription billing, you can now write your own custom code to trigger a discount offer upon subscription cancellation.
+        - Check out the new extensions from 'Snap, Stream, RenenueCat, Typesense, and more'
+
+
+    - Regardless of what tools and platforms you use, you shouldn't have to worry about security risks to your backend, like phishing, app impersonation, or data theft.
+    - <a href="https://firebase.google.com/docs/app-check">`App Check`</a>, you can help safeguard your data, protect your users, and control who has access to your resources and infrastructure.
+        - App Check does this by **attesting that incoming traffic is coming from your app** on a legitmate device and is certified under major compliance and security standards.
+        - you can use App Check with Firebase, Cloud, and even API endpoints on your own custom servers.
+
+---
+
+# Google Cloud
+
