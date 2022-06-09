@@ -206,5 +206,48 @@
 ---
 
 # Google Cloud
+- Google Cloud is a cloud built by developers for developers.
+- We focus on creating **intuitive experiences to help you to easily build** apps and services that your users love
+    
+    
+    - One example of what excites developers about Google Cloud is <a href="https://cloud.google.com/run?hl=ko">`Cloud Run`</a>, our serverless platform.
+        - which allows you to build and run applications without having to manage infrastructures.
+        - It supports your favorite languages and frameworks, like Kotlin, Node.js, Dart, and Python.
+        - In just a few clicks, you can simply connect Cloud Run to your git repo to automatically deploy your code changes.
+            > Users werw able to build and deploy an app on their first try in **less than 5 minutes.**
 
-.
+    
+    - <a href="https://cloud.google.com/run/docs/create-jobs"> `Cloud Run Jobs` </a>
+        - You probably spend a lot of time running administrative tasks like database migration, managing scheduled jobs like nightly reports, or doing batch data transformation.
+        - With Cloud Run jobs, you can excute code to completion on the same highly scalable Cloud Run platform.
+        - Example), I want my app's users to receive personalized push notifications every week with a recap of their week's activity.
+            - Here, a Cloud Run job is generating notification content for each user and using Firebase Admin SDK to send them out.
+            - Demo - <a href="https://github.com/GoogleCloudPlatform/jobs-demos">GitHub</a>
+
+
+    - <a href="https://cloud.google.com/alloydb">`AlloyDB for PostgreSQL</a>
+        - PostgreSQL is a great fit because it's one the most popular database engines.
+        - PostgreSQL is conbined with Google-native storage, Fully-managed database operations, and built-in ML.
+        - **4X faster** than standard PostgreSQL for transactional workloads.
+        - From my code, I can run SQL queries using the standard PostgreSQL library.
+        ` const { Pool } = require('pg')
+
+        const pool = new Pool({
+            host : process.env.DB_HOST,
+            port : 5432,
+            database : process.env.DB_NAME,
+            user : process.env.DB_USER,
+            pass : process.env.DB_PASS,
+        }) 
+
+        res = await pool.query(
+            "SELECT customer, SUM(usage) FROM records GROUP BY customer"
+        );
+        for(const row of res.rows){
+            console.log("customer: %s, usage: %s", row[0], row[1]);
+        }
+        `
+
+---
+
+# Machine Learning
