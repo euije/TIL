@@ -230,8 +230,9 @@
         - PostgreSQL is conbined with Google-native storage, Fully-managed database operations, and built-in ML.
         - **4X faster** than standard PostgreSQL for transactional workloads.
         - From my code, I can run SQL queries using the standard PostgreSQL library.
-
-        - ` const { Pool } = require('pg')
+        
+        ``` JavaScript
+        const { Pool } = require('pg')
 
         const pool = new Pool({
             host : process.env.DB_HOST,
@@ -247,7 +248,7 @@
         for(const row of res.rows){
             console.log("customer: %s, usage: %s", row[0], row[1]);
         }
-        `
+        ```
 
 ---
 
