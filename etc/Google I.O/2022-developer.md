@@ -225,12 +225,13 @@
             - Demo - <a href="https://github.com/GoogleCloudPlatform/jobs-demos">GitHub</a>
 
 
-    - <a href="https://cloud.google.com/alloydb">`AlloyDB for PostgreSQL</a>
+    - <a href="https://cloud.google.com/alloydb">`AlloyDB for PostgreSQL`</a>
         - PostgreSQL is a great fit because it's one the most popular database engines.
         - PostgreSQL is conbined with Google-native storage, Fully-managed database operations, and built-in ML.
         - **4X faster** than standard PostgreSQL for transactional workloads.
         - From my code, I can run SQL queries using the standard PostgreSQL library.
-        ` const { Pool } = require('pg')
+
+        - ` const { Pool } = require('pg')
 
         const pool = new Pool({
             host : process.env.DB_HOST,
