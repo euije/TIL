@@ -253,3 +253,58 @@
 ---
 
 # Machine Learning
+*get the ball rolling : to begin an activity or process.
+
+
+- We believe 2022 is the year ML becomes part of every developer's toolkit.
+- Google's machine learning ecosystem covers ***everything you need***, from the data that gets the ball rolling to training, deployment, operations, all while providing the tools to keep responsible AI top of mind.
+- We've made training efficient and easier and we ***help you spot potential bias issues.***
+    - when you want to get coding, APIs like tf.data reduce your workload and tools like <a href="https://knowyourdata.withgoogle.com/">Know Your Data</a> allow you to mitigate fairness and bias issues.
+
+- We've built cutting-edge research into easy-to-use APIs to make it simple to define neural networks using code.
+    - AI research deliverd BERT, a model which can do some amazing things, like understand sentiment within text.
+        - * <a href="https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html">BERT</a> : Bidirectional Encoder Representations from Trnsformers
+    - We built BERT into <a href="https://www.tensorflow.org/lite/guide/model_maker?hl=ko">TensorFlow Lite Model Maker </a> to encapsulate these cpabilities and make it easy for you to use them on mobile.
+    ``` Python
+    data = TextClassifierDataLoader.from_csv(...),
+        text_column = 'phrase',
+        label_column = 'sentiment',
+        model_spec = 'mobilebert_classifier',
+        delimiter = ',', is_training=True)
+    train_data, test_data = data.split(0.9)
+    bert_model = text_classifier.create(Train_data, model_spec=spec, epochs=100)
+    ```
+
+    - And using this, _Mathias Vogt_, a student developer from Germany, created an open-source reference implementation for ML on mobile that can detect predators in chat rooms. (깃헙 찾아보는데 안나오네요 ㅜ 혹시 아시는 분??)
+
+    - All the complexity for language semantics gets reduced from this to this.
+
+<tr>
+    <td>
+        <img width="565" alt="스크린샷 2022-06-10 오후 4 37 35" src="https://user-images.githubusercontent.com/12531340/173015430-37088055-10eb-4f7e-8dfd-09edb65c84fd.png">
+    </td>
+    <td>
+        ``` Kotlin
+        import org.tf.lite.task.text.nlclassifier,BertNLClassifier.*;
+
+        BertNLClassifierOption options = BertNLClassifierOption.builder().setMaxSeqLen(seq_len).build();
+
+        BertNLClassifier classifier = BertNLClassifier.createFromBufferAndOptions(mdl_buff, options);
+
+        List<Category> results = classifier.classify(inputText);
+        ```
+    </td>
+</tr>
+
+- You can excute ML, whether it's in the cloud, browsers, Android, iOS, even embedded systems and microcontrollers all from the same code and with open-source tools and frameworks.
+
+- It's critical to keep them updated. Open-source tools like <a href="https://www.tensorflow.org/tfx?hl=ko">TensorFlow Extended </a>, let you implement full pipelines quickly and easily.
+    - If you want to a managed solution for this, <a href="https://cloud.google.com/vertex-ai">Vertex AI</a> can cover you end to end.
+    - ML used to solve developer problems.
+        - We hear from web developers that they'd like to make their pages adaptive to user's bandwidth.
+        - Wouldn't it be nice if you can predict conditions before sending content to your users, giving them the best possible experience?
+            - <a href="https://github.com/linkedin/performance-quality-models">LinkedIn trained a model</a> using TensorFlow in JavaScript to predict download times, optimizing images before sending them.
+
+- If you want to build an app for text sentiment like Mathias, or a whole bunch of other apps in ML, check out <a href="https://developers.google.com/learn/pathways/?category=aiandmachinelearning">the learning paths</a> that take you from data to development  
+
+- Using ML to help protect the environment. <a href="https://youtu.be/5OuHe_skk0M">Youtube</a> <a href="https://blog.tensorflow.org/2022/05/Kaggle-Great-Barrier-Reef-ML.html">blog</a>
