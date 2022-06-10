@@ -258,10 +258,10 @@
 
 - We believe 2022 is the year ML becomes part of every developer's toolkit.
 - Google's machine learning ecosystem covers ***everything you need***, from the data that gets the ball rolling to training, deployment, operations, all while providing the tools to keep responsible AI top of mind.
-- We've made training efficient and easier and we ***help you spot potential bias issues.***
+- We've made training efficient and easier and we `help you spot potential bias issues.`
     - when you want to get coding, APIs like tf.data reduce your workload and tools like <a href="https://knowyourdata.withgoogle.com/">Know Your Data</a> allow you to mitigate fairness and bias issues.
 
-- We've built cutting-edge research into easy-to-use APIs to make it simple to define neural networks using code.
+- We've built cutting-edge research into easy-to-use APIs to make it `simple to define neural networks using code.`
     - AI research delivered BERT, a model which can do some amazing things, like understand sentiment within text.
         - *<a href="https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html">BERT</a> : Bidirectional Encoder Representations from Trnsformers
     - We built BERT into <a href="https://www.tensorflow.org/lite/guide/model_maker?hl=ko">TensorFlow Lite Model Maker </a> to encapsulate these cpabilities and make it easy for you to **use them on mobile.**
@@ -284,6 +284,7 @@
         <img width="565" alt="스크린샷 2022-06-10 오후 4 37 35" src="https://user-images.githubusercontent.com/12531340/173015430-37088055-10eb-4f7e-8dfd-09edb65c84fd.png">
     </td>
     <td>
+
         import org.tf.lite.task.text.nlclassifier,BertNLClassifier.*;
 
         BertNLClassifierOption options = BertNLClassifierOption.builder().setMaxSeqLen(seq_len).build();
@@ -298,7 +299,7 @@
 
 - It's critical to keep them updated. Open-source tools like <a href="https://www.tensorflow.org/tfx?hl=ko">TensorFlow Extended </a>, let you implement full pipelines quickly and easily.
     - If you want to a managed solution for this, <a href="https://cloud.google.com/vertex-ai">Vertex AI</a> can cover you end to end.
-    - ML used to solve developer problems.
+    - ML used to `solve developer problems.`
         - We hear from web developers that they'd like to make their pages adaptive to user's bandwidth.
         - Wouldn't it be nice if you can predict conditions before sending content to your users, giving them the best possible experience?
             - <a href="https://github.com/linkedin/performance-quality-models">LinkedIn trained a model</a> using TensorFlow in JavaScript to predict download times, optimizing images before sending them.
