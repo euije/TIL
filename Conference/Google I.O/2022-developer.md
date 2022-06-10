@@ -262,9 +262,9 @@
     - when you want to get coding, APIs like tf.data reduce your workload and tools like <a href="https://knowyourdata.withgoogle.com/">Know Your Data</a> allow you to mitigate fairness and bias issues.
 
 - We've built cutting-edge research into easy-to-use APIs to make it simple to define neural networks using code.
-    - AI research deliverd BERT, a model which can do some amazing things, like understand sentiment within text.
-        - * <a href="https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html">BERT</a> : Bidirectional Encoder Representations from Trnsformers
-    - We built BERT into <a href="https://www.tensorflow.org/lite/guide/model_maker?hl=ko">TensorFlow Lite Model Maker </a> to encapsulate these cpabilities and make it easy for you to use them on mobile.
+    - AI research delivered BERT, a model which can do some amazing things, like understand sentiment within text.
+        - *<a href="https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html">BERT</a> : Bidirectional Encoder Representations from Trnsformers
+    - We built BERT into <a href="https://www.tensorflow.org/lite/guide/model_maker?hl=ko">TensorFlow Lite Model Maker </a> to encapsulate these cpabilities and make it easy for you to **use them on mobile.**
     ``` Python
     data = TextClassifierDataLoader.from_csv(...),
         text_column = 'phrase',
@@ -284,6 +284,7 @@
         <img width="565" alt="스크린샷 2022-06-10 오후 4 37 35" src="https://user-images.githubusercontent.com/12531340/173015430-37088055-10eb-4f7e-8dfd-09edb65c84fd.png">
     </td>
     <td>
+        <p>
         ``` Kotlin
         import org.tf.lite.task.text.nlclassifier,BertNLClassifier.*;
 
@@ -293,6 +294,7 @@
 
         List<Category> results = classifier.classify(inputText);
         ```
+        </p>
     </td>
 </tr>
 
@@ -307,4 +309,4 @@
 
 - If you want to build an app for text sentiment like Mathias, or a whole bunch of other apps in ML, check out <a href="https://developers.google.com/learn/pathways/?category=aiandmachinelearning">the learning paths</a> that take you from data to development  
 
-- Using ML to help protect the environment. <a href="https://youtu.be/5OuHe_skk0M">Youtube</a> <a href="https://blog.tensorflow.org/2022/05/Kaggle-Great-Barrier-Reef-ML.html">blog</a>
+- Using ML to help protect the environment. <a href="https://youtu.be/5OuHe_skk0M">Youtube</a>, <a href="https://blog.tensorflow.org/2022/05/Kaggle-Great-Barrier-Reef-ML.html">Blog</a>
