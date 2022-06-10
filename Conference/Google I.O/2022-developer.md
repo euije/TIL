@@ -279,13 +279,15 @@
 
     - All the complexity for language semantics gets reduced from this to this.
 
-<tr>
+- <tr>
     <td>
         <img width="565" alt="스크린샷 2022-06-10 오후 4 37 35" src="https://user-images.githubusercontent.com/12531340/173015430-37088055-10eb-4f7e-8dfd-09edb65c84fd.png">
     </td>
     <td>
         <p>
+
         ``` Kotlin
+
         import org.tf.lite.task.text.nlclassifier,BertNLClassifier.*;
 
         BertNLClassifierOption options = BertNLClassifierOption.builder().setMaxSeqLen(seq_len).build();
@@ -294,6 +296,7 @@
 
         List<Category> results = classifier.classify(inputText);
         ```
+
         </p>
     </td>
 </tr>
