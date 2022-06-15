@@ -137,9 +137,11 @@ ___Bold, Italic___
 
 `Code`
 
+
 Text1
     Code
 Text2
+
 
 ``` markdown
 ~Code~
@@ -157,8 +159,11 @@ Text2
 # 하이퍼링크, Hyperlink
 
 <https://github.com/>
+
 [Github](github.com)
+
 [Github-Description](github.com, "Description")
+
 
 ``` markdown
 <https://github.com/>
@@ -170,10 +175,10 @@ Text2
 
 # 이미지, Image
 
-![Sailing](https://user-images.githubusercontent.com/12531340/173791974-610723f0-1a17-4c18-ac6d-e73abc797841.png, "Sailing")
+![Sailing](https://user-images.githubusercontent.com/12531340/173791974-610723f0-1a17-4c18-ac6d-e73abc797841.png)
 
 ``` markdown
-![Sailing](https://user-images.githubusercontent.com/12531340/173791974-610723f0-1a17-4c18-ac6d-e73abc797841.png, "Sailing")
+![Sailing](https://user-images.githubusercontent.com/12531340/173791974-610723f0-1a17-4c18-ac6d-e73abc797841.png)
 ```
 
 ref) https://www.ygfamily.com/upload/artists/album/260260/0.png
