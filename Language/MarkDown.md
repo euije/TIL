@@ -134,17 +134,12 @@ ___Bold, Italic___
 # 소스 코드, Source Code
 
 ~Code~
-`Code`
 
+`Code`
 
 Text1
     Code
 Text2
-
-
-``` markdown
-Code
-```
 
 ``` markdown
 ~Code~
@@ -155,10 +150,6 @@ Text1
     Code
 Text2
 
-
-``` markdown
-Code
-```
 ```
 
 ---
@@ -179,8 +170,10 @@ Code
 
 # 이미지, Image
 
-![Sailing](https://www.ygfamily.com/upload/artists/album/260260/0.png, "Sailing")
+![Sailing](https://user-images.githubusercontent.com/12531340/173791974-610723f0-1a17-4c18-ac6d-e73abc797841.png, "Sailing")
 
 ``` markdown
-![Sailing](https://www.ygfamily.com/upload/artists/album/260260/0.png, "Sailing")
+![Sailing](https://user-images.githubusercontent.com/12531340/173791974-610723f0-1a17-4c18-ac6d-e73abc797841.png, "Sailing")
 ```
+
+ref) https://www.ygfamily.com/upload/artists/album/260260/0.png
