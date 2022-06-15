@@ -1,27 +1,18 @@
 # 제목, Headling
 
 # H1
-```markdown
-# H1
-```
 ## H2
-```markdown
-## H2
-```
 ### H3
-```markdown
-### H3
-```
 #### H4
-``` markdown
-#### H4
-```
 ##### H5
-``` markdown
-##### H5
-```
 ###### H6
+
 ``` markdown
+# H1
+## H2
+### H3
+#### H4
+##### H5
 ###### H6
 ```
 
@@ -98,12 +89,19 @@ b
 # 강조, Emphasis
 
 **Bold1**
+
 __Bold2__
+
 *Italic1*
+
 _Italic2_
+
 ***Bold, Italic***
+
 ___Bold, Italic___
+
 ~~Strikethrough~~
+
 
 ``` markdown
 **Bold1**
