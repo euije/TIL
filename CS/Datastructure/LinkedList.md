@@ -114,7 +114,7 @@ void delete(listPointer *first, listPointer trail, int i){
 
 ## 💚 Applications
 
-- (Linked) Stack
+- [(Linked) Stack](./Stack.md#-representations)
 
 - (Linked) Queue
 
