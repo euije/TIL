@@ -1,7 +1,7 @@
 # ❤️ Introduction
 
 <p align="center">
- <img src = "./img/stack_illustration.png", height="150px", width="240px">
+ <img src = "./img/stack_illustration.png", height="250px", width="400px">
 </p>
 
 - Special case of ordered list
@@ -25,7 +25,7 @@
 <!-- C start -->
 <details>
 
-<summary>C</summary>
+<summary>C (Array, LinkedList) </summary>
 
 <!-- Array start -->
 <details>
@@ -82,7 +82,7 @@ element pop(){
     stackPointer temp = top;
     element item;
     
-    if(!top)
+    if(!temp)
         return isEmpty();
     
     item = top->data;

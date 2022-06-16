@@ -116,7 +116,7 @@ void delete(listPointer *first, listPointer trail, int i){
 
 - [(Linked) Stack](./Stack.md#-representations)
 
-- (Linked) Queue
+- [(Linked) Queue](./Queue.md#-representations)
 
 - Polynomial representation
 
