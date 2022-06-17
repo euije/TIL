@@ -16,10 +16,12 @@
 - Objects are finite ordered list which contains elements more than zero.
 - The items in the collection are kept __in order__.
 
-1. ___enequeue(item)___ : the addition of items to the back position(REAR)
-2. ___dequeue()___ : removal of items from the front position(FRONT), return removed item
-3. ___isEmpty()___ : return _true_ if queue is empty, otherwise _false_
-4. ___isFull()___ : return _true_ if queue is full, otherwise _false_
+|💖|operation|discription|
+|-|-|-|
+|1.|___enequeue(item)___|add ___item___ to the back position(__REAR__) of queue|
+|2.|___dequeue()___|remove item at the front position(__FRONT__) from queue, return removed item|
+|3.|___isEmpty()___|return _true_ if queue is empty, otherwise _false_|
+|4.|___isFull()___|return _true_ if queue is full, otherwise _false_|
 
 ## 💛 Representations
 

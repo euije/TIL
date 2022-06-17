@@ -15,10 +15,12 @@
 
 - objects are finite ordered list which contains elements more than zero.
 
-1. ___push(item)___ : push a new item only to the head(top, stack pointer) (insert at head)
-2. ___pop()___ : pop existing item only from the head(top, stack pointer) (remove from head), return removed item
-3. ___isEmpty()___ : return _true_ if stack is empty, otherwise _false_
-4. ___isFull()___ : return _true_ if stack is full, otherwise _false_
+|💖|operation|discription|
+|-|-|-|
+|1.|___push(item)___|add a new ___item___ only to the head(__top, stack pointer__) of stack|
+|2.|___pop()___|remove ___item___ only at the head(__top, stack pointer__) from stack, return removed item|
+|3.|___isEmpty()___|return _true_ if stack is empty, otherwise _false_|
+|4.|___isFull()___|return _true_ if stack is full, otherwise _false_|
 
 ## 💛 Representations
 

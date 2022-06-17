@@ -11,12 +11,14 @@
 
 ## 🧡 ADT
 
-- List is a sequence of items/data where positional order matter {a0, a1, ..., aN-2, aN-1}.
+- List is a sequence of items/data where positional order matter $\{a_0, a_1, ..., a_{N-2}, a_{N-1}\}$.
 
-1. ___get(i)___ — a trivial operation, return ai
-2. ___search(v)___ — decide if item/data v exists, return its index or not a non existing index -1)
-3. ___insert(i, v)___ — insert item/data v at the after node of position/index i, potentially shifting the items from [i..N-1] to their right to make a space,
-4. ___delete(i)___ — remove item at position/index i, potentially shifting the items from [i+1..N-1] to their left to close the gap.
+|💖|operation|discription|
+|-|-|-|
+|1.|___get(i)___|a trivial operation, return $a_i$|
+|2.|___search(v)___|decide if item/data ___v___ exists, return its index or not a non existing index -1)|
+|3.|___insert(i, v)___|insert item/data ___v___ at the after node of position/index ___i___, potentially shifting the items from $[i..N-1]$ to their right to make a space|
+|4.|___delete(i)___|remove item at position/index ___i___, potentially shifting the items from $[i+1..N-1]$ to their left to close the gap|
 
 ---
 
