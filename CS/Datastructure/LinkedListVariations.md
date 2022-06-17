@@ -4,9 +4,11 @@
  <img src = "./img/singlylist.png", height="90px", width="600px">
 </p>
 
-- With singlely linked list, we can't access the preceding node.
+- With singlely linked list, we can't access the preceding(previous) node.
 
 - Plus, we have to write extra codes handling the case where the list is empty or at specific target nodes.
+
+- To solve this, we have some variations of singly linked lists via extra fields.
 
 ---
 
@@ -24,14 +26,14 @@
 ### 👉 1. LinkedList with a header node
 
 <p>
- <img src = "./img/listheader.png", height="120px", width="800px">
+ <img src = "./img/listheader.png", height="80px", width="600px">
 </p>
 
-- list starts with a dummy node
+- List starts with a dummy node
 
-- a dummy node could store some information about the list at a header (node)
+- A dummy node could store some information about the list at a header (node)
 
-💖 ___`isEmpty()`___ : list which contains the only header
+💖 ___`isEmpty()`___ : List which contains the only header
 
 <p>
  <img src = "./img/listheaderempty.png", height="60px", width="200px">
@@ -87,6 +89,8 @@
     }
     ```
 
+---
+
 ### 👉 2. Circularly LinkedList
 
 <p>
@@ -101,17 +105,17 @@
 
 - Time complexity : ___O(n)___
 
-<p>
- <img src = "./img/listcircularinsertbefore.png", height="120px", width="400px">
-</p>
+    <p>
+     <img src = "./img/listcircularinsertbefore.png", height="120px", width="400px">
+    </p>
 
 - `Solution` : maintain a variable of the last node(tail)
 
 - Time complexity : ___O(1)___
 
-<p>
- <img src = "./img/listcircularinsertafter.png", height="120px", width="400px">
-</p>
+    <p>
+     <img src = "./img/listcircularinsertafter.png", height="120px", width="400px">
+    </p>
 
 ```C
 void insertFront(listPointer *last, listPointer node){
@@ -130,11 +134,13 @@ void insertFront(listPointer *last, listPointer node){
 }
 ```
 
+---
+
 ### 👉 3. Doubly LinkedList
 
 ![DoublyLinkedList](./img/listdouble.png)
 
-- In the operations of Singly LinkedList ___(insert, delete)___ , we have to know the preceding node of the target node.
+- In the operations of Singly LinkedList ___(insert, delete)___ , we have to know the preceding(previous) node of the target node.
 
 - Add a left link field to a node.
 
@@ -149,6 +155,8 @@ typedef struct node {
 };
 ```
 
+---
+
 ### 👉 4. Combinations
 
 #### 4.1 Circularly LinkedList with a header node
@@ -160,21 +168,23 @@ typedef struct node {
 💖 ___`isEmpty()`___ : list which contains the only header
 
 <p>
- <img src = "./img/listheadercircularempty.png", height="120px", width="400px">
+ <img src = "./img/listheadercircularempty.png", height="80px", width="300px">
 </p>
 
 💖 Application : [Polynomial representation](./Polynomial.md)
 
+---
+
 #### 4.2 Doubly & Circularly LinkedList with a header node
 
 <p>
- <img src = "./img/listheaderdoublycircular.png", height="240px", width="800px">
+ <img src = "./img/listheaderdoublycircular.png", height="200px", width="750px">
 </p>
 
 💖 ___`isEmpty()`___ : list which contains the only header
 
 <p>
- <img src = "./img/listheaderdoublycircularempty.png", height="120px", width="400px">
+ <img src = "./img/listheaderdoublycircularempty.png", height="80px", width="300px">
 </p>
 
 - 💖 ___`Insert(i, v)`___
