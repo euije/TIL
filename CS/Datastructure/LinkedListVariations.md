@@ -1,7 +1,7 @@
 # ❤️ Introduction
 
-<p align="center">
- <img src = "./img/singlylist.png", height="30px", width="200px">
+<p>
+ <img src = "./img/singlylist.png", height="90px", width="600px">
 </p>
 
 - With singlely linked list, we can't access the preceding node.
@@ -23,7 +23,9 @@
 
 ### 👉 1. LinkedList with a header node
 
-![LinkedListWithHeader](./img/listheader.png)
+<p>
+ <img src = "./img/listheader.png", height="120px", width="800px">
+</p>
 
 - list starts with a dummy node
 
@@ -31,7 +33,7 @@
 
 💖 ___`isEmpty()`___ : list which contains the only header
 
-<p align="center">
+<p>
  <img src = "./img/listheaderempty.png", height="60px", width="200px">
 </p>
 
@@ -87,7 +89,9 @@
 
 ### 👉 2. Circularly LinkedList
 
-![CircularlyLinkedList](./img/listcircular.png)
+<p>
+ <img src = "./img/listcircular.png", height="120px", width="800px">
+</p>
 
 - The last node links to the first node
 
@@ -97,16 +101,16 @@
 
 - Time complexity : ___O(n)___
 
-<p align="center">
- <img src = "./img/listcircularinsertbefore.png", height="60px", width="200px">
+<p>
+ <img src = "./img/listcircularinsertbefore.png", height="120px", width="400px">
 </p>
 
 - `Solution` : maintain a variable of the last node(tail)
 
 - Time complexity : ___O(1)___
 
-<p align="center">
- <img src = "./img/listcircularinsertafter.png", height="60px", width="200px">
+<p>
+ <img src = "./img/listcircularinsertafter.png", height="120px", width="400px">
 </p>
 
 ```C
@@ -149,24 +153,28 @@ typedef struct node {
 
 #### 4.1 Circularly LinkedList with a header node
 
-![CircularlyLinkedListWithHeader](./img/listheadercircular.png)
+<p>
+ <img src = "./img/listheadercircular.png", height="120px", width="800px">
+</p>
 
 💖 ___`isEmpty()`___ : list which contains the only header
 
-<p align="center">
- <img src = "./img/listheadercircularempty.png", height="60px", width="200px">
+<p>
+ <img src = "./img/listheadercircularempty.png", height="120px", width="400px">
 </p>
 
 💖 Application : [Polynomial representation](./Polynomial.md)
 
 #### 4.2 Doubly & Circularly LinkedList with a header node
 
-![DoublyCircularlyLinkedListWithHeader](./img/listheaderdoublycircular.png)
+<p>
+ <img src = "./img/listheaderdoublycircular.png", height="240px", width="800px">
+</p>
 
 💖 ___`isEmpty()`___ : list which contains the only header
 
-<p align="center">
- <img src = "./img/listheaderdoublycircularempty.png", height="60px", width="200px">
+<p>
+ <img src = "./img/listheaderdoublycircularempty.png", height="120px", width="400px">
 </p>
 
 - 💖 ___`Insert(i, v)`___
