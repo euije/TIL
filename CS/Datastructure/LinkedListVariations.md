@@ -1,6 +1,8 @@
 # ❤️ Introduction
 
-![SinglyLinkedList](./img/singlylist.png)
+<p align="center">
+ <img src = "./img/singlylist.png", height="30px", width="200px">
+</p>
 
 - With singlely linked list, we can't access the preceding node.
 
@@ -19,7 +21,7 @@
 
 ## 💛 Description
 
-### 1. LinkedList with a header node
+### 👉 1. LinkedList with a header node
 
 ![LinkedListWithHeader](./img/listheader.png)
 
@@ -29,7 +31,9 @@
 
 💖 ___`isEmpty()`___ : list which contains the only header
 
-![LinkedListWithHeaderEmpty](./img/listheaderempty.png)
+<p align="center">
+ <img src = "./img/listheaderempty.png", height="60px", width="200px">
+</p>
 
 
 💖 makes it easier to write codes for operations
@@ -81,7 +85,7 @@
     }
     ```
 
-### 2. Circularly LinkedList
+### 👉 2. Circularly LinkedList
 
 ![CircularlyLinkedList](./img/listcircular.png)
 
@@ -93,13 +97,17 @@
 
 - Time complexity : ___O(n)___
 
-![CircularlyLinkedListInsertBefore](./img/listcircularinsertbefore.png)
+<p align="center">
+ <img src = "./img/listcircularinsertbefore.png", height="60px", width="200px">
+</p>
 
 - `Solution` : maintain a variable of the last node(tail)
 
 - Time complexity : ___O(1)___
 
-![CircularlyLinkedListInsertAfter](./img/listcircularinsertafter.png)
+<p align="center">
+ <img src = "./img/listcircularinsertafter.png", height="60px", width="200px">
+</p>
 
 ```C
 void insertFront(listPointer *last, listPointer node){
@@ -118,7 +126,7 @@ void insertFront(listPointer *last, listPointer node){
 }
 ```
 
-### 3. Doubly LinkedList
+### 👉 3. Doubly LinkedList
 
 ![DoublyLinkedList](./img/listdouble.png)
 
@@ -137,7 +145,7 @@ typedef struct node {
 };
 ```
 
-### 4. Combinations
+### 👉 4. Combinations
 
 #### 4.1 Circularly LinkedList with a header node
 
@@ -145,7 +153,9 @@ typedef struct node {
 
 💖 ___`isEmpty()`___ : list which contains the only header
 
-![CircularlyLinkedListWithHeaderEmpty](./img/listheadercircularempty.png)
+<p align="center">
+ <img src = "./img/listheadercircularempty.png", height="60px", width="200px">
+</p>
 
 💖 Application : [Polynomial representation](./Polynomial.md)
 
@@ -155,7 +165,9 @@ typedef struct node {
 
 💖 ___`isEmpty()`___ : list which contains the only header
 
-![DoublyCircularlyLinkedListWithHeaderEmpty](./img/listheaderdoublycircularempty.png)
+<p align="center">
+ <img src = "./img/listheaderdoublycircularempty.png", height="60px", width="200px">
+</p>
 
 - 💖 ___`Insert(i, v)`___
 
