@@ -80,10 +80,13 @@ void insert(listPointer *first, int i, Data v) {
 
 - Needed preceding node
 
+- 'x' is a node indexed by 'i'
+
 ``` C
-void delete(listPointer *first, listPointer trail, int i){
+void delete(listPointer *first, listPointer trail, listPointer x){
+    /* delete x from list */
     /* trail is the preceding node */
-    listPointer x = get(i);
+
     if(trail){
         trail->link = x->link;
     }
