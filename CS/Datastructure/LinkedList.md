@@ -121,20 +121,20 @@ void delete(listPointer *first, listPointer trail, listPointer x){
 
 - [(Linked) Queue](./Queue.md#-representations)
 
-- Polynomial representation
+- [Polynomial representation](./Polynomial.md)
 
 ---
 
 ## 💙 Variations
 
-- LinkedList with a header node
+- [LinkedList with a header node](./LinkedListVariations.md#-1-linkedlist-with-a-header-node)
 
-- Circularly LinkedList
+- [Circularly LinkedList](./LinkedListVariations.md#-2-circularly-linkedlist)
 
-- Doubly LinkedList
+- [Doubly LinkedList](./LinkedListVariations.md#-3-doubly-linkedlist)
 </br>
 
-- These could be combined each other.
+- [These could be combined each other.](./LinkedListVariations.md#-4-combinations)
 
-  - ex) Doubly, Circularly LinkedList with a header node
+  - ex) [Doubly, Circularly LinkedList with a header node](./LinkedListVariations.md#42-doubly--circularly-linkedlist-with-a-header-node)
 
