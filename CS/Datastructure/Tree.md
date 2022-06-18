@@ -1,6 +1,6 @@
 # ❤️ Introduction
 
-<img src="./img/treeexam.png" height="80px" width="600px">
+<img src="./img/treeexam.png" height="160px" width="600px">
 
 - Structure with a set of acyclic connected nodes.
 
@@ -9,8 +9,8 @@
 - Examples are pedigree chart, lineal chart.
 
 💖 __Definition__ : ___A tree___ is a finite set of __one or more__ nodes such that 
-__(1)__ there is a specially designated node called __the root__ 
-__(2)__ and the remaining nodes are partitioned into $n \geq 0$ disjoint sets {$T_1,...,T_n$}, where each of these sets is ___a tree.___
+</br>__(1)__ there is a specially designated node called __the root__ 
+</br>__(2)__ and the remaining nodes are partitioned into $n \geq 0$ disjoint sets {$T_1,...,T_n$}, where each of these sets is ___a tree.___
 {$T_1,...,T_n$} are called the __subtrees__ of the root
 
 ---
@@ -100,7 +100,7 @@ __(2)__ and the remaining nodes are partitioned into $n \geq 0$ disjoint sets {$
 |2.|___inorder(root)___|traveral of ___root___ in order of {$leftChild, root, rightChild$}|
 |3.|___postorder(root)___|traveral of ___root___ in order of {$leftChild, rightChild, root$}|
 |4.|___level-order(root)___|traversal of ___root___ level by level, where ___root___ is visited first,</br>followed by its direct childs and siblings second, </br>its grandchild nodes and their siblings third, etc., </br>until all nodes have been traversed.|
-|5.|___copy(root)___|return a pointer of root to an exact copy of original ___root___|
+|5.|___copy(root)___|return a pointer to an exact copy of original ___root___|
 |6.|___equal(root1, root2)___|return _false_ if ___root1___ and ___root2___ are not equal, otherwise return true|
 
 ### 👉 0. Node

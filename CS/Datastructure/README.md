@@ -3,7 +3,7 @@
 - [Stack](./Stack.md)
 - [Queue](./Queue.md)
 - [LinkedList](./LinkedList.md)
-- Tree
+- [Tree](./Tree.md)
 - Heap
 - Graph
 - Hash
