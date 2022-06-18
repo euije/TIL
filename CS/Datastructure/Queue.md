@@ -109,13 +109,6 @@ element dequeue(){
 <!-- C end -->
 </details>
 
-
-
 ## 💚 Applications
 
-- Maze Problem
-
-- Postfix Calculator
-
-  - Evaluation
-  - Conversion
+-

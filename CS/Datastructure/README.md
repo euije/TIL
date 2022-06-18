@@ -1,5 +1,7 @@
 # Data structure, 자료 구조
 
+- [Stack](./Stack.md)
+- [Queue](./Queue.md)
 - [LinkedList](./LinkedList.md)
 - Tree
 - Heap
