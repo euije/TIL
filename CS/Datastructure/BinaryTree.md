@@ -7,6 +7,7 @@
 </br>
 
 - ___Full Binary Tree___ : A tree that every node has 2 children except for the leaves.
+
   - Number of nodes : $2^h-1$
 
   <img src="./img/binarytree.png" width="450px" height="150px">
