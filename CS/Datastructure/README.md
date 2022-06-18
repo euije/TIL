@@ -4,7 +4,7 @@
 - [Queue](./Queue.md)
 - [LinkedList](./LinkedList.md)
 - [Tree](./Tree.md)
-- Heap
+- [Heap](./Heap.md)
 - Graph
 - Hash
 
