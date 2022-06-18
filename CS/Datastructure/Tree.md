@@ -44,6 +44,26 @@
 
 ## 💛 Representation of Tree
 
+<img src="./img/treenormalexam.png" width="300px" height="120px">
+
+- To represent a tree, we need to allocate danamic space memory
+
+#### 💖 List Representation
+
+- Non-leaf nodes have ___tag fields nodes___
+- ___Leaf nodes___ are connected to node's right link
+
+<img src="./img/treenormallist.png" width="360px" height="90px">
+
+#### 💖 Left-Child Right-Sibling Representation
+
+<img src="./img/treenormalchildsibling.png" width="360px" height="90px">
+
+#### 💖 Degree-two tree Representation
+
+- Rorate $45^{\circ}$ clockwise siblings of Left-Child Right-Sibling represent
+
+<img src="./img/treenormaldegreetwo.png" width="360px" height="180px">
 
 ---
 
@@ -51,22 +71,24 @@
 
 - ___N-ary tree___ : A tree that each node has at most n-child nodes.
 
-<img src="./img/binarytree.png" width="450px" height="150px">
-
 - ___Binary Tree___ : A tree that each node has at most 2 children.
+
+</br>
 
 - ___Full Binary Tree___ : A tree that every node has 2 children except for the leaves.
   - Number of nodes : $2^h-1$
 
-<img src="./img/binarytreecomplete.png" width="450px" height="150px">
+ <img src="./img/binarytree.png" width="450px" height="150px">
 
 - ___Complete Binary Tree___ : A tree __(1)__ satisfying ___Full Binary Tree___ by 'Level $h-2$', __(2)__ and at 'Level $h-1$' possible to remove only from the rightmost leaf.
   - Number of nodes : $2^{h-1} \leq n \leq 2^h-1$
 
-<img src="./img/binarytreeskewed.png" width="200px" height="200px">
+ <img src="./img/binarytreecomplete.png" width="450px" height="150px">
 
 - ___Skewed Binary Tree___ : A tree that has only left or right descendant.
   - Number of nodes : $h$
+
+  <img src="./img/binarytreeskewed.png" width="200px" height="200px">
 
 ### 👉 Equality between the number of nodes($n$) and height($h$)
 
@@ -90,6 +112,30 @@
 
 ## 💙 Representation of Binary Tree
 
+<img src="./img/binarytreeexam.png" width="200px" height="200px">
+
+- 💖 Array Representation
+<img src="./img/binarytreearray.png" width="500px" height="50px">
+
+  - Node in ___A[$i$]___
+    - Left child : A[$2i$]
+    - Right child : A[$2i+1$]
+    - Parent : A[$\lfloor{i/2}\rfloor$]
+</br>
+  - Pros : Easy to access the parent node
+  - Cons : Wasted memories
+</br>
+- 💖 Linked Representation
+<img src="./img/binarytreelist.png" width="200px" height="200px">
+
+    ```C
+    typedef struct node* treePointer;
+    typedef struct node{
+        treePointer leftChild;
+        Data data;
+        treePointer rightChild;
+    };
+    ```
 ---
 
 ## 💜 Operations of Binary Tree
@@ -116,6 +162,10 @@ typedef struct node{
 
 ### 👉 1. ___preorder(root)___
 
+![PreorderRecursive](./img/treepreorderrecursive.gif)
+
+💖 traversal result : 5, 3, 1, 2, 4, 8, 7, 6, 11, 10, 9, 12
+
 ```C
 void preorder(treePointer ptr){
     if(ptr){
@@ -130,6 +180,11 @@ void preorder(treePointer ptr){
 
 - recursive traversal
 
+![InorderRecursive](./img/treeinorderrecursive.gif)
+
+💖 traversal result : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+
+
 ```C
 void inorder(treePointer ptr){
     if(ptr) {
@@ -141,6 +196,8 @@ void inorder(treePointer ptr){
 ```
 
 - Iterative inorder traversal
+
+![Inorderstack](./img/treeinorderstack.gif)
 
 ```C
 void iterInorder(treePointer node){
@@ -240,4 +297,5 @@ int equal(treePointer first, treePointer second){
 
 ## 🖤 Application
 
-- Binary Search Tree
+- [Binary Search Tree](./BinarySearchTree.md)
+- [Heap](./Heap.md)
