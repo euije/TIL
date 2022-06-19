@@ -1,8 +1,8 @@
 # ❤️ Introduction
 
 <table>
-    <th><img src="./img/hash.png?raw=true"></th>
-    <th><img src="./img/hash1.png?raw=true"></th>
+    <th><img src="./img/hash.png?raw=true" style="background-color: white;"></th>
+    <th><img src="./img/hash1.png?raw=true" width="100px" height="300px"></th>
 </table>
 
 - A data structure to save and search a data by transforming key to address
@@ -40,7 +40,7 @@
 
 - Example)
   - Keys of data : $12, 4, 23, 7, 3$
-  - Hash function : ___$H(k) = k\ mod\ 7$___
+  - Hash function : $H(k) = k\ mod\ 7$
   - Each bucket size : one __slot__
   - Hash table, $ht$ =
     |home address|bucket|
@@ -173,15 +173,19 @@ element* search(int k){
 
 ### 👉 Hash table with Chaining
 
-  <img src="./img/hashlinearproblem.png?raw=true" width="200px" height="200px">
+- <img src="./img/hashlinearproblem.png?raw=true" width="200px" height="200px">
 
-- Problem of Linear Probing
-  - The more collision is, the larger time complexity of search() could be
+  - Problem of Linear Probing
+    - The more collision is, the larger time complexity of search() could be
 
-<img src="./img/hashchaining.png?raw=true" width="200px" height="200px">
+</br>
 
-- Chaining can be a resolution
+- <img src="./img/hashchaining.png?raw=true" width="200px" height="200px">
+
+  - Chaining can be a resolution
+
 </br></br>
+
 - `💖 Key and Hash Table`
 
 ```C
