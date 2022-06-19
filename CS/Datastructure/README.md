@@ -6,7 +6,7 @@
 - [Tree](./Tree.md)
 - [Heap](./Heap.md)
 - Graph
-- Hash
+- [Hash](./Hash.md)
 
 ---
 

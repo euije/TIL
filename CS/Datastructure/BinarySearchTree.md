@@ -76,12 +76,13 @@ __Definition__ : ___A Binary Search Tree(BST)___ is a binary tree. It may be emp
 
 ### 2. insert(v)
 
+![BinarySearchTree](./img/binarysearchtreeinsert.gif)
+
 1️⃣ Search ___v___ first
 
 
 2️⃣ Insert ___v___ as a leaf
 
-![BinarySearchTree](./img/binarysearchtreeinsert.gif)
 
 👉 Code
 
