@@ -61,7 +61,7 @@
 
 #### 💖 Degree-two tree Representation
 
-- Rorate $45^{\circ}$ clockwise siblings of Left-Child Right-Sibling represent
+- Rotate $45^{\circ}$ clockwise siblings of Left-Child Right-Sibling representation
 
 <img src="./img/treenormaldegreetwo.png" width="360px" height="180px">
 
