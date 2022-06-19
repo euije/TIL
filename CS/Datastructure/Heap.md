@@ -64,6 +64,8 @@ int n = 0; // number of elements in the heap
 - Time complexity : ___$O(h) = O(log n)$___
 
 1️⃣ Insert the '___v___' into the new rightmost leaf node ___N___.
+
+
 2️⃣ Locate '___v___' <b style="color: blue">right position</b> along the path from ___N___ to ___root___.
 
 ![MaxHeapInsert](./img/maxheapinsert.gif)
@@ -96,9 +98,17 @@ void push(element item, int *n){
 - Time complexity : ___$O(h) = O(log n)$___
 
 1️⃣ Delete the key in ___the root___
+
+
 2️⃣ Set the key of root to the key of rightmost leaf node ___N___
+
+
 3️⃣ Delete ___N___
+
+
 4️⃣ <b style="color:red">Adjust</b> the tree to maintain the heap requirements
+
+
 
 ![MaxHeapDelete](./img/maxheapdelete.gif)
 
