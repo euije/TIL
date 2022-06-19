@@ -10,17 +10,17 @@
 
   - Number of nodes : $2^h-1$
 
-  <img src="./img/binarytree.png" width="450px" height="150px">
+  <img src="./img/binarytree.png?raw=true" width="450px" height="150px">
 
 - ___Complete Binary Tree___ : A tree __(1)__ satisfying ___Full Binary Tree___ by 'Level $h-2$', __(2)__ and at 'Level $h-1$' possible to remove only from the rightmost leaf.
   - Number of nodes : $2^{h-1} \leq n \leq 2^h-1$
 
-  <img src="./img/binarytreecomplete.png" width="450px" height="150px">
+  <img src="./img/binarytreecomplete.png?raw=true" width="450px" height="150px">
 
 - ___Skewed Binary Tree___ : A tree that has only left or right descendant.
   - Number of nodes : $h$
   
-  <img src="./img/binarytreeskewed.png" width="200px" height="200px">
+  <img src="./img/binarytreeskewed.png?raw=true" width="200px" height="200px">
 
 ### 👉 Equality between the number of nodes($n$) and height($h$)
 
@@ -48,7 +48,7 @@
 
 - 💖 Array Representation
 
-  <img src="./img/binarytreearray.png" width="500px" height="50px">
+  <img src="./img/binarytreearray.png?raw=true" width="500px" height="50px">
 
   - Node in ___A[$i$]___
     - Left child : A[$2i$]
