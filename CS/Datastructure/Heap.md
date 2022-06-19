@@ -37,7 +37,7 @@
 
 |💖|Max heap|
 |-|-|
-|__Tree__|![Maxheap](./img/maxheap.png)|
+|__Tree__|<img src="./img/maxheap.png" width="200px" height="150px">|
 |__Array__|![MaxheapArray](./img/maxheaparray.png)|
 
 - Each node has a key and other fields
@@ -155,7 +155,7 @@ void adjust(element a[], int root, int n){
             child *= 2;
         }
     }
-    // stop algorithm and 
+    // stop algorithm and insert the saved data into the right position
     a[child/2] = temp;
 }
 ```
