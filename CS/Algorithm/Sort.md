@@ -59,7 +59,7 @@ Hello Sort!
 
 |💖|1|2|3|...|9 $(=n-1)$|
 |-|-|-|-|-|-|
-|__Heap__|<img src="./img/heapsort4-1.png" width="250px" height="170px">|<img src="./img/heapsort4-2.png" width="200px" height="140px">|<img src="./img/heapsort4-3.png" width="200px" height="140px">|...|<img src="./img/heapsortoutput.png" width="200px" height="140px">|
+|__Heap__|<img src="https://github.com/euije/TIL/blob/ecf7775b7d796288c7ec295c2d9d0121790ad0a4/CS/Algorithm/img/heapsort4-1.png" width="250px" height="170px">|<img src="./img/heapsort4-2.png" width="200px" height="140px">|<img src="./img/heapsort4-3.png" width="200px" height="140px">|...|<img src="./img/heapsortoutput.png" width="200px" height="140px">|
 |__Sorted[]__|[77]|[61,77]|[59,61,77]|...|[<b style="color:red;">1</b>,5,11,15,19,26,48,59,61,77]|
 
 ### 👉 Codes
