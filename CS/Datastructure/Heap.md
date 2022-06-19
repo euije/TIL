@@ -26,7 +26,7 @@
 |💖|operation|discription|
 |-|-|-|
 |1.|___insert(v)</br>(enequeue)___|insert the data ___v___ into max heap ___(at the rightmost leaf node)___ , maintaining ___Max(min) Heap requirements___|
-|4.|___delete()</br>(dequeue)___|remove the data at the most priority ___(at the root)___ and return the removed data, maintaining ___Max(min) Heap requirements___|
+|2.|___delete()</br>(dequeue)___|remove the data at the most priority ___(at the root)___ and return the removed data, maintaining ___Max(min) Heap requirements___|
 
 ---
 
