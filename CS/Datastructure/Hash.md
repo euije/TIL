@@ -2,7 +2,7 @@
 
 <table>
     <th><img src="./img/hash.png?raw=true" style="background-color: white;"></th>
-    <th><img src="./img/hash1.png?raw=true" width="100px" height="300px"></th>
+    <th><img src="./img/hash1.png?raw=true" width="150px" height="300px"></th>
 </table>
 
 - A data structure to save and search a data by transforming key to address

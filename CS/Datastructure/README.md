@@ -5,7 +5,7 @@
 - [LinkedList](./LinkedList.md)
 - [Tree](./Tree.md)
 - [Heap](./Heap.md)
-- Graph
+- [Graph](./Graph.md)
 - [Hash](./Hash.md)
 
 ---
