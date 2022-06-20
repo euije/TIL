@@ -1,6 +1,8 @@
 # ❤️ Introduction
 
+<p style="text-align: center;">
 <img src="./img/graphexam.png?raw=true" width="200px" height="300px">
+</p>
 
 - Graph is a data structure that represent __a network architecture__.
   - Set of nodes, edges
