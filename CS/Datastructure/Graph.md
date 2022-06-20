@@ -102,5 +102,5 @@ void bfs(int v){
   - Prim's algorithm
   - Sollin's algorithm
 
-- Stortest path
+- Shortest path
   - Dijkstra algorithm

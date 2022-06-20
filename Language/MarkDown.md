@@ -182,3 +182,9 @@ Text2
 ```
 
 ref) https://www.ygfamily.com/upload/artists/album/260260/0.png
+
+---
+
+https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables
+
+https://en.wikibooks.org/wiki/LaTeX/Mathematics
