@@ -40,9 +40,6 @@
 |23.|__[Easing Functions 1]__||mathmatical \<easing-function>|
 |24.|__[Counter Styles 3]__||counter(), counter-increment|
 
-  
-
-
 ## References
 
 - https://www.w3.org/
