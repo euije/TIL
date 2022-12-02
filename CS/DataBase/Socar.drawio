@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T07:21:31.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EbLF68Q8S7Wlwq2_Hbpn" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-02T08:07:27.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5txwdrxvOYNHaMkB5QkH" version="20.6.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1530" dy="1292" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1913" dy="1615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NqXaYbxikYc5zeVfJTju-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;Customer&lt;/i&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#CCE6F0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="NqXaYbxikYc5zeVfJTju-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;customer&lt;/i&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#CCE6F0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="169" y="130" width="202" height="357" as="geometry" />
         </mxCell>
         <mxCell id="NqXaYbxikYc5zeVfJTju-6" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;license&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;license_id&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;class&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;date_of_issue&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-1">
           <mxGeometry y="115" width="178" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="NqXaYbxikYc5zeVfJTju-3" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;ID&lt;br&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-1">
+        <mxCell id="NqXaYbxikYc5zeVfJTju-3" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;ID&lt;br&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;fontStyle=4" vertex="1" parent="NqXaYbxikYc5zeVfJTju-1">
           <mxGeometry y="42" width="41" height="37" as="geometry" />
         </mxCell>
         <mxCell id="NqXaYbxikYc5zeVfJTju-11" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;{ credit_card }&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;card_id&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;issuer&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;owner&lt;/i&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-1">
@@ -19,10 +19,10 @@
         <mxCell id="NqXaYbxikYc5zeVfJTju-18" value="name" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=2" vertex="1" parent="NqXaYbxikYc5zeVfJTju-1">
           <mxGeometry y="79" width="66" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="NqXaYbxikYc5zeVfJTju-8" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;Employee&lt;/i&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#CCE6F0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="NqXaYbxikYc5zeVfJTju-8" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;employee&lt;/i&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#CCE6F0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="430" y="130" width="202" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="NqXaYbxikYc5zeVfJTju-10" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;ID&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-8">
+        <mxCell id="NqXaYbxikYc5zeVfJTju-10" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;ID&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;fontStyle=4" vertex="1" parent="NqXaYbxikYc5zeVfJTju-8">
           <mxGeometry y="42" width="41" height="37" as="geometry" />
         </mxCell>
         <mxCell id="NqXaYbxikYc5zeVfJTju-12" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;license&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;license_id&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;class&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;date_of_issue&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-8">
@@ -34,14 +34,89 @@
         <mxCell id="NqXaYbxikYc5zeVfJTju-21" value="name" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=2" vertex="1" parent="NqXaYbxikYc5zeVfJTju-8">
           <mxGeometry y="79" width="66" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="NqXaYbxikYc5zeVfJTju-14" value="&lt;font face=&quot;Spectral&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;Car&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#CCE6F0;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="749" y="130" width="245" height="305" as="geometry" />
+        <mxCell id="NqXaYbxikYc5zeVfJTju-14" value="&lt;font face=&quot;Spectral&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;car&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#CCE6F0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="130" width="245" height="123" as="geometry" />
         </mxCell>
-        <mxCell id="NqXaYbxikYc5zeVfJTju-15" value="&lt;font face=&quot;Spectral&quot;&gt;&lt;i&gt;license_plate_id&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-14">
+        <mxCell id="NqXaYbxikYc5zeVfJTju-15" value="&lt;font face=&quot;Spectral&quot;&gt;&lt;i&gt;license_plate_id&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;fontStyle=4" vertex="1" parent="NqXaYbxikYc5zeVfJTju-14">
           <mxGeometry y="42" width="161" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="NqXaYbxikYc5zeVfJTju-16" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;type&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;name&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;manufacturer&lt;br/&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;year_of_manufacture&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-14">
-          <mxGeometry y="88" width="245" height="110" as="geometry" />
+        <mxCell id="NqXaYbxikYc5zeVfJTju-16" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;car_type_id&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-14">
+          <mxGeometry y="79" width="121" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-24" value="&lt;font face=&quot;Spectral&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;car_type&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#CCE6F0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="292" width="245" height="263" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-27" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;manufacturer&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=6" vertex="1" parent="NqXaYbxikYc5zeVfJTju-24">
+          <mxGeometry y="73" width="138" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-28" value="&lt;i&gt;name&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=4" vertex="1" parent="NqXaYbxikYc5zeVfJTju-24">
+          <mxGeometry y="37" width="66" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-31" value="&lt;i&gt;year_of_manufacture&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=4" vertex="1" parent="NqXaYbxikYc5zeVfJTju-24">
+          <mxGeometry y="109" width="205" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-32" value="&lt;i style=&quot;&quot;&gt;fuel_type&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=4" vertex="1" parent="NqXaYbxikYc5zeVfJTju-24">
+          <mxGeometry y="145" width="99" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-33" value="segment&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpectral;fontStyle=2" vertex="1" parent="NqXaYbxikYc5zeVfJTju-24">
+          <mxGeometry y="181" width="93" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-34" value="price_per_kilometer()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=2" vertex="1" parent="NqXaYbxikYc5zeVfJTju-24">
+          <mxGeometry y="217" width="207" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-35" value="&lt;font face=&quot;Spectral&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;parking_lot&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#CCE6F0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="584" width="245" height="283" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-36" value="&lt;font face=&quot;Spectral&quot;&gt;&lt;i&gt;ID&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;fontStyle=4" vertex="1" parent="NqXaYbxikYc5zeVfJTju-35">
+          <mxGeometry y="42" width="41" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-37" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;name&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-35">
+          <mxGeometry y="79" width="66" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-38" value="address_ko" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=2" vertex="1" parent="NqXaYbxikYc5zeVfJTju-35">
+          <mxGeometry y="116" width="116" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-39" value="&lt;i&gt;latitude()&lt;br&gt;longitude()&lt;br&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-35">
+          <mxGeometry y="152" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-40" value="&lt;div style=&quot;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;start_at&lt;/i&gt;&lt;/div&gt;&lt;i&gt;&lt;div style=&quot;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;end_at&lt;/i&gt;&lt;/div&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-35">
+          <mxGeometry y="212" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-41" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;coupon&lt;/i&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#CCE6F0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="726" y="130" width="202" height="227" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-42" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;ID&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;fontStyle=4" vertex="1" parent="NqXaYbxikYc5zeVfJTju-41">
+          <mxGeometry y="42" width="41" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-43" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;discount_rate&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-41">
+          <mxGeometry y="152" width="139" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-44" value="&lt;div style=&quot;&quot;&gt;&lt;i&gt;due_date&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-41">
+          <mxGeometry y="189" width="98" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-45" value="name" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=2" vertex="1" parent="NqXaYbxikYc5zeVfJTju-41">
+          <mxGeometry y="79" width="66" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-46" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;segment&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-41">
+          <mxGeometry x="-0.5" y="115" width="93" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-47" value="&lt;font face=&quot;Spectral&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;insurance&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#CCE6F0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="726" y="389" width="202" height="241" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-48" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;ID&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;fontStyle=4" vertex="1" parent="NqXaYbxikYc5zeVfJTju-47">
+          <mxGeometry y="42" width="41" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-49" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;price_rate&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-47">
+          <mxGeometry y="152" width="107" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-50" value="&lt;div style=&quot;&quot;&gt;&lt;i&gt;claim_paid&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-47">
+          <mxGeometry y="189" width="115" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-51" value="name" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=2" vertex="1" parent="NqXaYbxikYc5zeVfJTju-47">
+          <mxGeometry y="79" width="66" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="NqXaYbxikYc5zeVfJTju-52" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;company&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;" vertex="1" parent="NqXaYbxikYc5zeVfJTju-47">
+          <mxGeometry x="-0.5" y="115" width="98" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
