@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T13:54:31.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="IgkdfGD6AtEfrSgAy_B7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T14:11:34.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="ZC00M5B6hYdVOLM5_Sjn" type="github">
   <diagram id="UVPOX5-JJq2qGS6yFOuh" name="페이지-1">
-    <mxGraphModel dx="1520" dy="994" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" math="0" shadow="0">
+    <mxGraphModel dx="1623" dy="1077" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -401,7 +401,7 @@
         <mxCell id="khq9wTxqKmZlLQu4RUVH-229" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;company&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;fontStyle=0" vertex="1" parent="khq9wTxqKmZlLQu4RUVH-227">
           <mxGeometry x="4" y="146" width="98" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="khq9wTxqKmZlLQu4RUVH-231" value="employee_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=6" vertex="1" parent="khq9wTxqKmZlLQu4RUVH-227">
+        <mxCell id="khq9wTxqKmZlLQu4RUVH-231" value="employee_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Spectral;fontStyle=2" vertex="1" parent="khq9wTxqKmZlLQu4RUVH-227">
           <mxGeometry x="4.5" y="38" width="129" height="36" as="geometry" />
         </mxCell>
         <mxCell id="khq9wTxqKmZlLQu4RUVH-232" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spectral&quot; face=&quot;Spectral&quot;&gt;&lt;i&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;reward_money&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Courier New;fontStyle=0" vertex="1" parent="khq9wTxqKmZlLQu4RUVH-227">
